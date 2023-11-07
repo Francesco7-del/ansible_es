@@ -83,6 +83,11 @@
 - name: soluzione es1
   include_tasks: roles/fe/tasks/es1.yml
 
+- name: soluzione es1
+  include_tasks: roles/fe/tasks/es1sol-lunga.yml
+
+
+
 # - name: Importa le task da gestione_file.yml
 #   include_tasks: roles/fe/tasks/gestione_file.yml
 
