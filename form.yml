@@ -1,17 +1,17 @@
 
-vars_prompt:
-  - name: "name"
-    prompt: "Inserisci il tuo nome"
-    private: no
+# vars_prompt:
+#   - name: "name"
+#     prompt: "Inserisci il tuo nome"
+#     private: no
 
-  - name: "age"
-    prompt: "Inserisci la tua età"
-    private: no
+#   - name: "age"
+#     prompt: "Inserisci la tua età"
+#     private: no
 
-tasks:
-  - name: Messaggio di benvenuto
-    set_fact:
-      welcome_message: "Ciao, {{ name }}. Hai {{ age }} anni!"
+# tasks:
+#   - name: Messaggio di benvenuto
+#     set_fact:
+#       welcome_message: "Ciao, {{ name }}. Hai {{ age }} anni!"
 
-  - debug:
-      var: welcome_message
+#   - debug:
+#       var: welcome_message
