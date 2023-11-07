@@ -58,14 +58,14 @@
 
 
 
-
-- name: Get System Facts
+#sol2 es1
+- name: Raccolta dati 
   setup:
     filter: ansible_distribution, ansible_distribution_version, ansible_packages
 
-- name: Generate Report
+- name: Stampa dati richiesti 
   debug:
     msg: |
       OS Version: {{ ansible_distribution }} {{ ansible_distribution_version }}
-      Docker Version: {{ ansible_packages['docker-ce']['version'] | default('Not installed') }}
-      Tar Version: {{ ansible_packages['tar']['version'] | default('Not installed') }}
+      Docker Version: {{ ansible_packages['docker-ce']['version'] | default('Non installato') }}
+      Tar Version: {{ ansible_packages['tar']['version'] | default('Non installato') }}
