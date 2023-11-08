@@ -7,12 +7,12 @@
  #esempio look up --mpstra  il contenutoi del file ciao 
 - name: Leggi il file Ciao
   ansible.builtin.debug:
-    msg: "{{ lookup('file', 'roles/common/files/ciao') }}"
+    msg: "{{ lookup('file', 'Esercizio1/roles/common/files/ciao') }}"
 
 
 - name: group1.yml
   include_vars:
-    file: groups_vars/group1.yml
+    file: Esercizio1/groups_vars/group1.yml
 - name: stampa valore variabile
   debug:
     var: group_var1

@@ -23,7 +23,7 @@
 
 - name: Include variables from vars folder
   include_vars:
-    file: roles/common/vars/vars.yml
+    file: Esercizio1/roles/common/vars/vars.yml
 - name: stampa valore variabile
   debug:
     var: vars_ciao   #utlilizzo variabile in altro file 

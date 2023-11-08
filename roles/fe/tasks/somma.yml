@@ -26,7 +26,7 @@
   notify: Notifica somma calcolata
 
 - name: Importa handlers
-  import_tasks: roles/fe/handlers/handlers.yml
+  import_tasks: Esercizio1/roles/fe/handlers/handlers.yml
   
 
 

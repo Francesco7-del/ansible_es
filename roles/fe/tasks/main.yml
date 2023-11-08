@@ -71,20 +71,20 @@
   
   #esempio import task 
 - name: Importa le task da install-nginx.yml
-  include_tasks: roles/fe/tasks/install-nginx.yml
+  include_tasks: Esercizio1/roles/fe/tasks/install-nginx.yml
 
 - name: Importa le task da return.yml
-  include_tasks: roles/common/tasks/return.yml
+  include_tasks: Esercizio1/roles/common/tasks/return.yml
 
 - name: Importa le task da somma.yml
-  include_tasks: roles/fe/tasks/somma.yml
+  include_tasks: Esercizio1/roles/fe/tasks/somma.yml
 
 
 - name: soluzione es1
-  include_tasks: roles/fe/tasks/es1.yml
+  include_tasks: Esercizio1/roles/fe/tasks/es1.yml
 
 - name: soluzione es1
-  include_tasks: roles/fe/tasks/es1sol-lunga.yml
+  include_tasks: Esercizio1/roles/fe/tasks/es1sol-lunga.yml
 
 
 
